@@ -11,6 +11,7 @@ import { SignupComponent } from './authentications/signup/signup.component';
 import { LogoutComponent } from './authentications/logout/logout.component';
 import { FlistingFormComponent } from './flisting-form/flisting-form.component';
 import { FlistingDetailsComponent } from './flisting-details/flisting-details.component';
+import { ErrorsComponent } from './errors/errors.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FlistingDetailsComponent } from './flisting-details/flisting-details.co
     SignupComponent,
     LogoutComponent,
     FlistingFormComponent,
-    FlistingDetailsComponent
+    FlistingDetailsComponent,
+    ErrorsComponent
   ],
   imports: [
     BrowserModule,

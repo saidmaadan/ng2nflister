@@ -29,7 +29,7 @@ app.use(function (req, res, next) {
 
 //Setup Api routes
 app.use('/flisting', flistingRoutes );
-app.use('/user', userRoutes);
+app.use('/flister', flisterRoutes);
 app.use('/', appRoutes);
 
 // Catch all other routes and return the index file
